@@ -1,7 +1,7 @@
 import os
 from flask import Flask
 from models import db
-from models import Student_Details, Parents_Details, Class_Details, Teacher_Details, Attendance, Behaviour, Grades, User_Details
+from models import StudentDetails, ParentsDetails, ClassDetails, TeacherDetails, Attendance, Behaviour, UserDetails
 
 # Base directory
 basedir = os.path.abspath(os.path.dirname(__file__))
